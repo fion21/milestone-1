@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:100,200,300,400,700');
+
+/*--------------------------------------------------------Colours-------------*/
+
+.color-home {
+    background-color: #8D8E88;
+}
+
+.color-music {
+    background-color: #C70039 ;
+}
+
+.color-hire-us {
+    background-color: #E65100;
+}
+
+.color-gallery {
+    background-color: #FBC02D;
+}
+
+.color-text-home {
+    color: #FC6336;
+}
+
+.color-text-music {
+    color: #7BB665;
+}
+
+.color-text-hire-us {
+    color: #FFE082;
+}
+
+.color-text-gallery {
+    color: #FFE082;
+}
+
+
+/*-----------------------------------------------------Header-----------------*/
+
+header {
+    margin: 0;
+}
+
+.news-flash {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: "Yanone" sans-serif;
+    height: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.news-flash a {
+    color: white;
+}
+
+.header-image-contain {
+
+    visibility: hidden;
+}
+
+.logo-image-contain {
+
+    background: url("../assets/images/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    min-height: 240px;
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+}
+
+#nav {
+    margin: 10px;
+}
+
+#nav li {
+    padding: 10px;
+    border-radius: 60px;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding:50%;
+}
+
+.menuitem a {
+    width: 200%;
+    text-decoration: none;
+    color: white;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 10px;
+    display: block;
+    color: brown;
+    font-size: 20px;
+}
+
+.menuitem span {
+    display: block;
+    width: 50%;
+    padding-top: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+
+.h5 {background-color: #FFC107;}
+
+
+.background-image  {
+    background-image: url("/assets/images/logo.png");
+}
+
+/*--------------------------------------------------------Side Content Panel--*/
+
+.border-home {
+    border: 10px solid #FC6336;
+    border-radius: 50%;
+    text-align: center;
+    padding: 15px;
+    min-height: 360px;
+    margin-top: 10px;
+}
+
+.border-music {
+    border-radius: 50%;
+    text-align: center;
+    padding: 15px;
+    min-height: 360px;
+    margin-top: 10px;
+}
+
+.border-hire-us {
+    border-radius: 0;
+    text-align: center;
+    padding: 15px;
+    min-height: 410px;
+    margin-top: 10px;
+}
+
+.border-gallery {
+    border-radius: 3px;
+    text-align: center;
+    padding: 15px;
+    min-height: 360px;
+    margin-top: 100px;
+}
+.side-content h3 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+}
+
+.side-content p {
+    margin-top: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #525252;
+}
+    
+.side-content p {
+    margin-top: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #525252;
+}
+
+.side-content a {
+    margin-top: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #00A6CB;
+    text-decoration: none;
+}
+
+
+/*-------------------------------------------------------------Home Content---*/
+
+.home-main-content {
+    display: block;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: #C70039;
+    
+    border: 10px solid #FC6336;
+    border-radius: 50%;
+    padding: 15px;
+    min-height: 360px;
+    margin-top: 10px;
+}
+
+/*------------------------------------------------------------Music Content---*/
+
+.music-main-content {
+    display: block;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #525252;
+    border: 10px solid #7BB665;
+    border-radius: 60px;
+    padding: 15px;
+    min-height: 360px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+    padding-bottom: 17px;
+}
+
+.audio-placeholder {
+    display: inline-block;
+    padding-bottom: 25px;
+    border: 5px solid #7BB665;
+    border-radius: 30px;
+}
+
+.audio-placeholder h5 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 18px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+
+/*----------------------------------------------------------Hire Us Content---*/
+
+.hire-us-main-content {
+    display: block;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #525252;
+    
+    border: 0;
+    border-radius:40px;
+    padding: 15px;
+    min-height: 360px;
+    margin-top: 10px;
+}
+
+ p {
+             color: red;	
+          }
+
+/*----------------------------------------------------------Gallery Content---*/
+
+.gallery-main-content {
+    display: block;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    color: #525252;
+    
+    border: 10px solid #794784;
+    border-radius: 50%;
+    padding: 15px;
+    min-height: 360px;
+    margin-top: 10px;
+}
+
+/*----------------------------------------------thank-you---*/
+
+.thank-you {
+    display: block;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 60px;
+    font-size: 40px;
+    color: #525252;
+    
+    border: 10px solid #595E62;
+    border-radius: 50%;
+    padding: 15px;
+    min-height: 360px;
+    margin-top: 10px;
+    
+    background: url("/assets/images/logo.png");
+}
+/*----------------------------------------------------------------Footer------*/
+
+footer {
+    border: 0px solid #595E62;
+    border-radius: 50%;
+    padding: 15px;
+    min-height: 280px;
+}
+
+.footer-details {
+    border: 0px solid #595E62;
+    border-radius: 50%;
+    padding: 15px;
+    min-height: 360px;
+    margin-top: 10px;
+}
+
+.footer-image {
+    background: url("../images/cover3/jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 240px;
+    margin-top: 36px;
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+}
+
+.footer-text-section {
+    color: #C0392B;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 60px;
+    padding: 50px 0;
+}
+
+.social-section {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    color: #C0392B;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 44px;
+    padding-bottom: 22px;
+}
+
+.social-links {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.social-links li a i {
+    width: 52px;
+    height: 52px;
+    padding: 21px 0;
+    border-radius: 50%;
+    font-size: 40px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #C0392B  ;
+    transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
+    -webkit-transition: all 0.45s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #C0392B  ;
+    color: #f7f1ed;
+    background-color: #C0392B  ;
+    border-color: #fba924;
+    border-radius: 50%;
+    border: 0;
+}
+
+/*--------------------------------------------------------------------------/* buttons --------*/
+
+.btn-success {
+    color: #f7f1ed;
+    background-color: #C0392B  ;
+    border-color: #e79004;
+    border-radius: 50%;
+}
+
+.btn-success:hover,
+.btn-success:active,
+.btn-success:focus,
+.btn-success:active:focus {
+    color: #f7f1ed;
+    background-color: #C0392B  ;
+    border-color: #fba924;
+    border-radius: 50%;
+    border: 0;
+}
+
+.btn-primary {
+    color: #f7f1ed;
+    background-color: ;#C0392B
+    border-color: #00A6CB;
+    border-radius: 50%;
+}
+
+
+
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:active:focus {
+    color: #f7f1ed;
+    background-color: #C0392B  ;
+    border-color: #00A6CB;
+    border-radius: 50%;
+    border: 0;
+}
+/*---------------------------------------------------------Media Queries------*/
+
+@media(min-width: 768px) {
+    
+    
+    .footer-image {
+        margin-top: 15px;
+    }
+}
+@media(min-width: 992px) {
+    .border-home-side-content {
+        min-height: 382px;
+    }
+    
+    .header-image-contain {
+        visibility: visible;
+        background: url("../images/The_Monkees_1967.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        min-height: 360px;
+        transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+        -webkit-transition: all 1s ease-in-out;
+    }
+}
