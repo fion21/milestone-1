@@ -28,7 +28,7 @@ underline { text-decoration: none;
 }
 
 .color-text-home {
-    color: #3F1D1F  ;
+    color: #3F1D1F;
 }
 
 .color-text-music {
@@ -81,7 +81,7 @@ li {
   text-align: center;
   font-size: 13px;
   padding-top: 20px;
-  
+} 
 
 /*-----------------------------------------------------Header-----------------*/
 
@@ -186,7 +186,7 @@ header {
 }
 
 .fan-club-img {
-    width:100%;
+    max-width: 100%;
 }
 
 /*------------------------------------------------------------Main Content---*/
