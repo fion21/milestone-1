@@ -5,6 +5,8 @@ Suitable for a family audience.
 
 
 
+
+
 UX
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
@@ -62,14 +64,11 @@ Credits
 Content
 The text for section Y was copied from the Wikipedia article Z
 Media
+
 The photos used in this site were obtained from ...
 
 monk.gif
 http://pictograms.blogspot.com/2008/01/logo-166-monkees.html
-
-Red background
-https://pixabay.com/vectors/search/web%20design/?colors=red
-<a href="https://pixabay.com/illustrations/dot-halftone-pattern-vector-2492077/">Image</a> by <a href="https://pixabay.com/users/DavidZydd-985081/">DavidZydd</a> on Pixabay
 
 Acknowledgements
 I received inspiration for this project from X
