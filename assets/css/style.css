@@ -25,17 +25,54 @@ underline { text-decoration: none;
     color: #FFFFFF;
 }
 
-.color-text-music {
-    color: #FFFFFF;
+
+text-center {padding-top 70px;}
+
+
+
+/*list inline
+social links*/
+
+
+
+.social-section {
+    font-weight: 500;
+    color: #595E62;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 44px;
+    padding-bottom: 22px;
 }
 
-.color-text-hire-us {
-    color: #FFFFFF;
+
+.social-links {
+    padding-bottom: 5px;
+    text-align: center;
+    padding-left: 40px;
 }
 
-.color-text-gallery {
-    color: #E65100 ;
+.social-links li a i {
+    width: 52px;
+    height: 52px;
+    padding: 21px 0;
+    border-radius: 50%;
+    font-size: 40px;
+    line-height: 5px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
 }
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+
+
 
 
 /*-------------------------------------- Remove HTML-----------------*/
@@ -58,6 +95,9 @@ li {
 }
 /*-----------------------------------------------------Header-----------------*/
 
+#content {
+    text-align:center;
+}
 
 .menuitem {
   
@@ -71,10 +111,9 @@ li {
 
 .menuitem span {
     text-transform: uppercase;
-    font-size: 40px;
-    font-weight: 150px;
-   margin-right: 20px;
-   margin-left: 20px;
+    font-size: 35px;
+    font-weight: 180px;
+  
     line-height: inherit;
     
     color: #FFFFFF;
@@ -84,6 +123,43 @@ li {
     max-width: 100%;
     line-height: 40px;
     padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+
+.col-lg-12 {
+     line-height: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+
+
+.col-lg-6 {
+     line-height: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+col-lg-8 {
+ 
+    padding-left: 60px;
+}
+
+
+.px-2 {
+  padding-left: ($spacer * .5) !important;
+}
+
+.navbar-default {color: white;
+}
+
+
+.navbar {background-color: #E65100 ;
+}
+
+.navbar-text {color:#FFFFFF;
 }
 
 
@@ -142,6 +218,9 @@ a:hover {
 @media(min-width: 992px) 
 
 
+.with-gutters {
+  margin-right: 0;
+  margin-left: 30px;
 
 
 

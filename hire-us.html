@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-          type="text/css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+          
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
           type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
@@ -21,36 +21,56 @@
     </section>
     
     </header>
-    <div class="container-fluid">
+    
+    <!-- Image and text -->
+
+    
+    <nav class="navbar navbar-default">
+
+  <a class="navbar-brand">
+        <span class="navbar-text" >
+            
+    <img src="assets/images/icon.gif" width="200" height="120" class="text-center" alt="monkee logo">
+    <a><h3>Monkey Enough? </h3></a>
+
+    </nav>
+    
+
+    <div class="container">
         <div class="row">
-                <h3>Monkees' Parties on Us?</h3>
-                <p>Even though we've played all over the Earth</p>
-                <p>It needn't cost you the Earth!</p>
-                <p>We love playing at parties, weddings and most events.</p>
-                <p>Please fill out the form and let us know what you had in mind and we will get back to you</p>
-            </div>
-                <h3>Hire The Monkees</h3>
-                <form class="form-horizontal" action="assets/html/thank-you.html">
+            <div class="col-lg-6">
+              
+                <p>Discover why it needn't cost you the Earth by filling out the form and we'll get back to you</p>
+                <p>You'd be monkey not to!!</p>
+                <h3>Hire Us Now!</h3>
+                <form class="form-horizontal" action="thank-you.html">
+                    
+                    
+                       <div class="col-lg-12">
+                       <div class="form-group">
+                        <label class="control-label col-sm-2" for="email">Name</label>
+                        <input type="name" class="form-control" id="name" placeholder="Enter name" name="name" required>
+                        </div>
+                        
+                        
+                    </div>
+                         <div class="col-lg-12">
                     <div class="form-group">
-                        <label class="control-label col-sm-2" for="email">Name:</label>
-                        <div class="col-sm-10 offset-md-2">
-                            <input type="name" class="form-control" id="name" placeholder="Enter name" name="name" required>
+                        <label class="control-label col-sm-2" for="email">Email</label>
+                         <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required placeholder="Please enter valid email address">
                         </div>
                     </div>
+                    
+                    
+                     <div class="col-lg-12 col-sm-2">
                     <div class="form-group">
-                        <label class="control-label col-sm-2" for="email">Email:</label>
-                        <div class="col-sm-10">
-                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required placeholder="Please enter valid email address">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label col-sm-2" for="additional">Event Information:</label>
-                        <div class="col-sm-10">
+                        <label class="col-lg-12" for="additional">Event Information</label>
+                        <div class="col-lg-12">
                             <textarea class="form-control" rows="5" id="additional-info" placeholder="Please include location, date and any other additional information" name="additional-info" required></textarea>
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="col-sm-offset-2 col-sm-10">
+                        <div class="col-lg-10">
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </div>
                     </div>
@@ -58,18 +78,12 @@
             </div>
         </div>
     </section>
-    <div class="container-fluid">
-            <div class="row">
-                <ul>
-                    <li><a target="_blank" href="https://en-gb.facebook.com/TheMonkees/"><i class="fa fa-facebook"></i></a> </li>
-                    <li><a target="_blank" href="https://twitter.com/TheMonkees?lang=en"><i class="fa fa-twitter"></i></a> </li>
-                    <li><a target="_blank" href="https://www.youtube.com/user/themonkees"><i class="fa fa-youtube"></i></a> </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+    
+   
 
     <!-- Modal -->
+    <div class="container">
+            <div class="row">
     <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -91,8 +105,8 @@
         </div>
     </div>
      <section>
-                    
-         <div class="row fan-club-img">
+       <div class="container">
+        <div class="row">
             <ul>
                 <button class=" btn btn-danger color-home color-text-home menuitem">
                     <a href="index.html"><span>Home</span>
@@ -102,15 +116,20 @@
                     <a href="music.html"><span>Music</span>
                     </button>
                 
-                 <button class=" btn btn-primary color-home color-text-home menuitem">
-                    <a href="hire-us.html"><span>Hire Us</span>
-                    </button>
-                    
-                     <button class=" btn btn-info color-home color-text-home menuitem">
+                 <button class=" btn btn-info color-home color-text-home menuitem">
                     <a href="gallery.html"><span>Gallery</span>
                     </button>
-               </ul>
+            </ul>
             </div>
+            
+            <div class="container">
+            <div class="row">
+                    <ul class="list-inline social-links">
+                    <li><a target="_blank" href="https://en-gb.facebook.com/TheMonkees/"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a target="_blank" href="https://twitter.com/TheMonkees?lang=en"><i class="fab fa-twitter-square"></i></a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/user/themonkees"><i class="fab fa-youtube"></i></i></a></li>
+                    </ul>
+         </div>
     
  
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
