@@ -54,10 +54,10 @@ social links*/
 .social-links li a i {
     width: 52px;
     height: 52px;
-    padding: 21px 0;
+    padding: 30px 10px;
     border-radius: 50%;
     font-size: 40px;
-    line-height: 5px;
+    line-height: 0px;
     text-align: center;
     color: #fafafa;
     background: #8f8f8f;
