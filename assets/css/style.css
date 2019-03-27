@@ -33,6 +33,11 @@ text-center {padding-top 70px;}
 /*list inline
 social links*/
 
+body {
+    background-color: #33010b;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
 .social-section {
@@ -46,21 +51,22 @@ social links*/
 
 
 .social-links {
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     text-align: center;
-    padding-left: 40px;
+    padding-left: 20px;
 }
 
 .social-links li a i {
-    width: 52px;
-    height: 52px;
-    padding: 30px 10px;
+    width: 60px;
+    height: 60px;
+    padding: 15px 15px;
     border-radius: 50%;
-    font-size: 40px;
-    line-height: 0px;
-    text-align: center;
+    font-size: 45px;
+    line-height: 30px;
+    padding-right: 10px;
+  
     color: #fafafa;
-    background: #8f8f8f;
+    
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
@@ -87,12 +93,7 @@ ul {
 
 
 
-li {
-  background-color: #fff;
-  border-radius: 50%;
-  padding: 0px;
-  font-size: 0px;
-}
+
 /*-----------------------------------------------------Header-----------------*/
 
 #content {
@@ -123,7 +124,7 @@ li {
     max-width: 100%;
     line-height: 40px;
     padding-bottom: 20px;
-    padding-left: 20px;
+    padding-left: 0px;
 }
 
 
@@ -131,6 +132,7 @@ li {
      line-height: 40px;
     padding-bottom: 20px;
     padding-top: 20px;
+    color: #fafafa;
     
 }
 
@@ -139,12 +141,14 @@ li {
      line-height: 40px;
     padding-bottom: 20px;
     padding-top: 20px;
+    color: #fafafa;
 }
 
 
 col-lg-8 {
  
     padding-left: 60px;
+    color: #fafafa;
 }
 
 
@@ -152,22 +156,23 @@ col-lg-8 {
   padding-left: ($spacer * .5) !important;
 }
 
-.navbar-default {color: white;
+.navbar-default {color:  #33010b;
 }
 
 
-.navbar {background-color: #E65100 ;
+.navbar {background-color:  #FFFFFF;
 }
 
-.navbar-text {color:#FFFFFF;
+.navbar-text {color:  #33010b;
 }
 
 
 
 /*------------------------------------------------------------Main Content---*/
 
-p, a {
+p, a, h3, h4, h5 {
   text-decoration: none;
+  color: #fafafa;
   -webkit-text-decoration-color: #E18728;
   text-decoration-color: #E18728; 
  }
@@ -181,17 +186,6 @@ a:hover {
   -webkit-text-decoration-color: ;
   text-decoration-color: #28B1E1; 
 }
-
-
-/*----------------------------------------------------------Hire Us Content---*/
-
-/*----------------------------------------------------------Gallery Content---*/
-
-/*---------------------------------------------------------Thank-you----------*/
-
-/*----------------------------------------------------------------Footer------*/
-
-/*------------------------------------------------------------Buttons --------*/
 
 
 .btn-danger {
@@ -227,13 +221,28 @@ a:hover {
 /*nav*/
 
 .navbar {
-    background-color:   #E65100;
+    background-color:    #33010b;
 }
 
 .navbar-light {
-    background-color:   #E65100;
+    background-color:    #33010b;
 }
 .bg-light{
-    background-color:   #E65100;
+    background-color:    #33010b;
 }
 
+h5 {
+    background-color:    #33010b;
+}
+h4 {
+    background-color:    #33010b;
+}
+h3 {
+    background-color:    #33010b;
+}
+h2{
+    background-color:    #33010b;
+}
+h1 {
+    background-color:    #33010b;
+}
