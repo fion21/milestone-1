@@ -77,11 +77,3 @@ Ref: “pt.jpg”
 Sourced at 25/03/19 from 
 https://github.com/fion21/project-assets/tree/master/stream-1/band-assets/images/pt.jpg
 
-N.B.
-
-Peter Tork died of cancer on February 21, 2019.
-(https://en.wikipedia.org/wiki/The_Monkees#cite_note-95)
-"Monkees musician Peter Tork dies at 77". BBC News. 21 February 2019.
-
-
-=
