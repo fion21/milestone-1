@@ -132,25 +132,25 @@ ul {
 
 
 .col-lg-12 {
-     line-height: 40px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+     line-height: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     color: #fafafa;
     
 }
 
 
 .col-lg-6 {
-     line-height: 40px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    line-height: 30px;
+    padding-bottom: 25px;
+    padding-top: 25px;
     color: #fafafa;
 }
 
 
 col-lg-8 {
  
-    padding-left: 60px;
+    padding-left: 10px;
     color: #fafafa;
 }
 
@@ -188,9 +188,19 @@ body {
 
 /*------------------------------------------------------------Main Content---*/
 
-p, a, h3, h4, h5 {
+a,  h3, h2 {
   text-decoration: none;
-  color: #fafafa;
+  font-family: 'ZCOOL XiaoWei', serif;
+  color: #33010b;
+  -webkit-text-decoration-color: #E18728;
+  text-decoration-color: #E18728; 
+  text-align: center;
+ }
+ 
+ p, a,  h5, h4 {
+  text-decoration: none;
+  font-family: 'ZCOOL XiaoWei', serif;
+  color: #FFFFFF;
   -webkit-text-decoration-color: #E18728;
   text-decoration-color: #E18728; 
   text-align: center;
@@ -206,7 +216,7 @@ a:visited {
 }
 
 a:hover { 
-  -webkit-text-decoration-color: ;
+  -webkit-text-decoration-color: #94530D;
   text-decoration-color: #28B1E1; 
 }
 
@@ -228,7 +238,7 @@ a:hover {
     background-color:   #FBC02D;
 }
 
-/*---------------------------------------------------------Media Queries------*/
+/*----------------------------------Media Queries------*/
 
 @media(min-width: 768px) 
 
@@ -240,6 +250,9 @@ a:hover {
   margin-left: 30px;
 
 
+.h2 {font-family: 'ZCOOL XiaoWei', serif;
+    
+}
 
 /*nav*/
 
@@ -263,7 +276,7 @@ h4 {
 h3 {
     background-color:    #33010b;
 }
-h2{
+h2{ font-family: 'ZCOOL XiaoWei', serif;
     background-color:    #33010b;
 }
 h1 {

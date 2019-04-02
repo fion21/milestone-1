@@ -39,7 +39,12 @@ The text for most of the content was derived from Wikipedia at https://en.wikipe
 #### Acknowledgements
 I researched other students’ and mentors’ projects who had work on slack to help with the overall grasp of the project, including the mini-project which was a cv website prior to the development for this project. Secondly I included a modal element, semantically adjusted from the previous Whiskey Drop lesson.
 
-#### Media/Photos/logos
+#### Media/Photos/logos/fonts
+
+##### Fonts
+Main font via Google fonts (free)
+https://fonts.google.com/?selection.family=ZCOOL+XiaoWei
+
 ##### Monkees’ logo
  
 Ref: “icon.gif”
