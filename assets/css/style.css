@@ -84,7 +84,7 @@ body {
 
 
 
-/*-------------------------------------- Remove HTML-----------------*/
+/*-------------------------------------- list no bullets-----------------*/
 ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -97,7 +97,7 @@ ul {
 
 
 
-/*-----------------------------------------------------Header-----------------*/
+/*-----------------------------------------------------buttons-----------------*/
 
 #content {
     text-align:center;
@@ -115,14 +115,14 @@ ul {
 
 .menuitem span {
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 31px;
     font-weight: 180px;
   
     line-height: inherit;
     
     color: #FFFFFF;
 }
-/*-------------------------------------------------------------Home Content---*/
+/*-------------------------------------------------------------photo on index---*/
 .fan-club-img {
     max-width: 100%;
     line-height: 40px;
@@ -175,7 +175,7 @@ body {
     margin: 8px;
 }
 
-
+/*
 .red-square {
   background-color: #FF4136;
   width: 100px;
@@ -185,8 +185,7 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
 }
-
-/*------------------------------------------------------------Main Content---*/
+*/
 
 a,  h3, h2 {
   text-decoration: none;
@@ -276,9 +275,13 @@ h4 {
 h3 {
     background-color:    #33010b;
 }
+
+/*font*/
 h2{ font-family: 'ZCOOL XiaoWei', serif;
     background-color:    #33010b;
 }
+
+
 h1 {
     background-color:    #33010b;
 }
