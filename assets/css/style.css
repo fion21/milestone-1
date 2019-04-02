@@ -10,6 +10,9 @@
 }
 
 
+.carousel-indicators { text-decoration: none;
+}
+
 underline { text-decoration: none;
 }
 
@@ -167,6 +170,21 @@ col-lg-8 {
 }
 
 
+body {
+    display: block;
+    margin: 8px;
+}
+
+
+.red-square {
+  background-color: #FF4136;
+  width: 100px;
+  height: 100px;
+  position: left;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
 /*------------------------------------------------------------Main Content---*/
 
@@ -175,7 +193,12 @@ p, a, h3, h4, h5 {
   color: #fafafa;
   -webkit-text-decoration-color: #E18728;
   text-decoration-color: #E18728; 
+  text-align: center;
  }
+ 
+ .p {
+  padding: 30px;
+}
 
 a:visited {
   -webkit-text-decoration-color: #94530D;
