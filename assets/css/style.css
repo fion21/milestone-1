@@ -219,6 +219,12 @@ a:visited {
   text-decoration-color: #94530D; 
 }
 
+button {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
 a:hover { 
   -webkit-text-decoration-color: #94530D;
   text-decoration-color: #28B1E1; 
