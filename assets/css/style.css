@@ -28,9 +28,6 @@ underline { text-decoration: none;
     color: #FFFFFF;
 }
 
-.navigation {
-    display: inline-felx;
-}
 
 text-center {padding-top 70px;}
 
@@ -60,7 +57,6 @@ body {
     padding-bottom: 10px;
     text-align: center;
     padding-left: 20px;
-    display: inline-flex;
 }
 
 .social-links li a i {
@@ -108,7 +104,6 @@ ul {
 }
 
 .menuitem {
-    width:100%;
   
 }
  
@@ -217,12 +212,6 @@ a,  h3, h2 {
 a:visited {
   -webkit-text-decoration-color: #94530D;
   text-decoration-color: #94530D; 
-}
-
-button {
-    margin: 0;
-    border: 0;
-    padding: 0;
 }
 
 a:hover { 
